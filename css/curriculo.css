@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+li#lista-menu:hover{
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+    margin-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 70%;
+}
+
+li#lista-menu{
+    list-style-type: none;
+    padding: 10px;
+    display: inline;
+    margin-left: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 70%;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+div#gestao{
+    position: relative;
+    top: -186px;
+    left: 150px;
+    display: inline-block;
+    width: 300px;
+    height: 310px;
+    
+}
+div#tecnologia{
+    position: relative;
+    left: 146px;
+    width: 300px;
+    height: 310px;
+    display: inline-block;
+}
+
+div#conteudo{
+    background-color: white;
+    position: relative;
+    left: 25%; 
+    width: 50%;
+    height: 400px;
+  
+   
+}
+
+div#historico{
+    position: relative;
+    background-color: white;
+    width: 50%;
+    left: 25%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+P{
+    padding-left: 10PX;
+    padding-right: 10PX;
+    margin-bottom: 0px;
+}
