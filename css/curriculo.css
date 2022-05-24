@@ -1,31 +1,30 @@
 body{
     background-color: black;
+    
 }
+/* Inicio css do menu  */
 li#lista-menu:hover{
-    list-style-type: none;
-    padding: 10px;
-    display: inline;
-    margin-left: 1%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
     background-color: white;
-    color: black;
-    position: relative;
-    left: 70%;
+    color: black;   
 }
 
 li#lista-menu{
     list-style-type: none;
-    padding: 10px;
-    display: inline;
-    margin-left: 1%;
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 1em;
     background-color: black;
     color: white;
-    position: relative;
-    left: 70%;
+   
 
+}
+ul#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+ 
+    
 }
 a{
     text-decoration: none;
@@ -34,35 +33,55 @@ a{
 a:hover{
     color: black;
 }
-div#gestao{
-    position: relative;
-    top: -186px;
-    left: 150px;
-    display: inline-block;
-    width: 300px;
-    height: 310px;
+
+
+
+/* Fim do css do menu */
+
+div#pagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
 }
-div#tecnologia{
-    position: relative;
-    left: 146px;
-    width: 300px;
-    height: 310px;
-    display: inline-block;
+
+h1{ 
+    left: 25%; 
+    width: 50%;
+    text-align: center;
+}
+h1#historico{ 
+    left: 25%; 
+    width: 100%;
+    text-align: center;
 }
 
 div#conteudo{
+
     background-color: white;
-    position: relative;
     left: 25%; 
     width: 50%;
     height: 400px;
-  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#gestao{
    
+    width: 350px;
+    height: 310px;
+}
+
+div#tecnologia{
+    width: 350px;
+    height: 310px;
+    
 }
 
 div#historico{
-    position: relative;
+    
     background-color: white;
     width: 50%;
     left: 25%;
@@ -70,14 +89,126 @@ div#historico{
     padding-top: 10px;
 }
 
-h1{
-    text-align: center;
-}
 h2{
     text-align: center;
+    font-size: 1.5em;
 }
+
 P{
     padding-left: 10PX;
     padding-right: 10PX;
     margin-bottom: 0px;
+}
+
+@media screen and (max-width: 400px) {
+    h1{ 
+        left: 10%; 
+        width: 80%;
+
+    }
+    div#conteudo{
+        width: 80%;
+        left: 10%;
+    }
+    div#historico{
+        width: 80%;
+        left: 10%;
+    }
+    ul#menu{
+        justify-content: center;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    div#tecnologia>ul>li{
+        font-size: .50em;
+
+    }
+    div#gestao>ul>li{
+        font-size: .50em;
+    }
+    p{
+        font-size: .50em;
+    }
+    div#conteudo{
+        height: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    h1{ 
+        left: 10%; 
+        width: 80%;
+
+    }
+    div#conteudo{
+        width: 80%;
+        left: 10%;
+    }
+    div#historico{
+        width: 80%;
+        left: 10%;
+    }
+    ul#menu{
+        justify-content: center;
+    }
+    h1{
+        font-size: 1.75em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    div#tecnologia>ul>li{
+        font-size: .75em;
+
+    }
+    div#gestao>ul>li{
+        font-size: .75em;
+    }
+    p{
+        font-size: .75em;
+    }
+    div#conteudo{
+        height: 250px;
+    }
+    
+}
+@media screen and (max-width: 1024px) {
+    h1{ 
+        left: 10%; 
+        width: 80%;
+
+    }
+    div#conteudo{
+        width: 80%;
+        left: 10%;
+    }
+    div#historico{
+        width: 80%;
+        left: 10%;
+    }
+    h1{
+        font-size: 1.75em;
+    }
+    h2{
+        font-size: 1em;
+    }
+    div#tecnologia>ul>li{
+        font-size: .75em;
+
+    }
+    div#gestao>ul>li{
+        font-size: .75em;
+    }
+    p{
+        font-size: .75em;
+    }
+    div#conteudo{
+        height: 250px;
+    }
+    
 }

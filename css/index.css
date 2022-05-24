@@ -2,44 +2,45 @@ body{
     background-color: black;
 }
 li#lista-menu:hover{
-    list-style-type: none;
-    padding: 10px;
-    display: inline;
-    margin-left: 1%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
     background-color: white;
-    color: black;
-    position: relative;
-    left: 70%;
+    color: black;   
 }
 
 li#lista-menu{
     list-style-type: none;
-    padding: 10px;
-    display: inline;
-    margin-left: 1%;
+    padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 1em;
     background-color: black;
     color: white;
-    position: relative;
-    left: 70%;
-
 }
+ul#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 
+ 
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
 
 
 
 .nome{
-   display: flex;
-   justify-content:center;
-  
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
 .texto{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 8rem;
+    font-size: 5em;
     color: white;
     padding: 150px 0 0 30px;
 }
@@ -51,24 +52,31 @@ li#lista-menu{
     background-image: url('../img/perfil.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     left: 15%;
     margin-bottom: 0%;
     padding-bottom: 0%;
     border-radius: 50%;
    
 }
+@media screen and (max-width: 400px) {
+    #imagem{
+        width: 100px;
+        height: 100px;
+    }
+    ul#menu{
+        justify-content: center;
+      
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 1024px) {}
 
     
 
     
 
 
-a{
-    text-decoration: none;
-    color: white;
-}
-a:hover{
-    color: black;
-}
