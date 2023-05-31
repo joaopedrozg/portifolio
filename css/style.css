@@ -1,0 +1,187 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    background-color: azure;
+}
+.container{
+    display: flex;
+}
+#navegacao {
+    margin-top: 200px;
+    width: 400px;
+    height: 500px;
+    
+
+}
+
+#navegacao p {
+    font-weight: bold;
+    text-align: center;
+}
+
+#sobre, #projetos {
+    margin-top: 200px;
+    width: 100%;
+    border-top: 2px black solid;
+    border-bottom: 4px black solid;
+
+}
+
+#texto h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#texto p {
+    margin: 10px 40px;
+    text-align: justify;
+}
+
+#icones{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#python,
+#php,
+#mysql{
+    height: 70px;
+    width: 70px;
+    
+
+}
+
+#python {
+    background-image: url("../img/icons/python.png");
+    background-size: cover;
+}
+
+#php {
+    background-image: url("../img/icons/php.png");
+    background-size: cover;
+}
+#mysql {
+    background-image: url("../img/icons/mysql.png");
+    background-size: cover;
+}
+
+#profile-img{
+    background-image: url("../img/profile.jpeg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 30px;
+    margin: 40px auto;
+}
+#projeto1,
+#projeto2,
+#projeto0 {
+    margin-top: 40px;
+    border-bottom: 2px black solid;
+}
+
+.content-project{
+    width: 600px;
+    margin-right: 40px;
+    
+}
+#decription-project{
+    display: flex;
+    justify-content: center;
+}
+#tecnologias{
+    display: flex;
+    justify-content: flex-end;
+}
+#content-img-agenda {
+    background-image: url("../img/project_img/agenda.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+}
+#content-img-blog {
+    background-image: url("../img/project_img/blog.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+}
+
+#content-img-movie {
+    background-image: url("../img/project_img/movie.png");
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+
+}
+
+
+p,
+li,
+h1,
+h3,
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+
+
+a svg{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+a:hover {
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#redes {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#nav{
+    list-style: none;
+}
+
+#nav li{
+    text-align: center;
+    height: 20px;
+    margin-top: 20px;
+}
+
+#nav li,
+h4:hover{
+    font-weight: bold;
+
+}
+
+
+
+.php svg,
+.html5 svg,
+.mysql svg,
+.mysql svg,
+.css svg,
+.bootstrap svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
